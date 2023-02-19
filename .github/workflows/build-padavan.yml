@@ -39,7 +39,7 @@ jobs:
 
     - name: Clone source code
       run: |
-        git clone --depth=1 https://github.com/$BUILD_VERSION/rt-n56u.git /opt/rt-n56u
+        git clone --depth=1 https://github.com/shengxian2004/Padavan /opt/rt-n56u
         cd /opt/rt-n56u/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
